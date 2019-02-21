@@ -14,4 +14,4 @@ Designed to be able to view team information ordered via rankings and categorize
 ## Credits 
 * Next.js tutorial
 
-![Diagram1]()
+![Diagram1](https://github.com/Jzbonner/futbol-next/blob/master/img-media/soccer.jpg?raw=true)
