@@ -1,5 +1,7 @@
 # Futbol ⚽ Web-App 
-A sever-side react based web application for displaying soccer team rankings and information. Built with [Next.js]() and [React.js](), this web application will serve as a template/design option for the finance-tracker repository. 
+A sever-side react based web application for displaying soccer team rankings and information. Built with [Next.js](https://nextjs.org/) and [React.js](https://reactjs.org/), this web application will serve as a template/design option for the finance-tracker repository. 
+
+![Diagram1](https://github.com/Jzbonner/futbol-next/blob/master/img-media/soccer-player.png?raw=true)
 
 ## Technology Stack for Development
 * React.js
@@ -14,4 +16,3 @@ Designed to be able to view team information ordered via rankings and categorize
 ## Credits 
 * Next.js tutorial
 
-![Diagram1](https://github.com/Jzbonner/futbol-next/blob/master/img-media/soccer-player.png?raw=true)
