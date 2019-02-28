@@ -6,7 +6,7 @@ A sever-side react based web application for displaying soccer team rankings and
 ## Technology Stack for Development
 * React.js
 * Next.js 
-* Material-UI 
+* ReactStrap 
 
 Depending on your development process and workflow you could easily interchange any of the dev tools listed above. Whichever options provide you with the ability to create a server-side web app, are the ones you should use. 
 
