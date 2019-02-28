@@ -13,6 +13,4 @@ Depending on your development process and workflow you could easily interchange 
 ## Functionality 
 Designed to be able to view team information ordered via rankings and categorized via leagues. This will be a multi-page web app, that also displays slightly more detailed information (wins/loses, games played in schedule, win %, etc.)
 
-## Credits 
-* Next.js tutorial
 
