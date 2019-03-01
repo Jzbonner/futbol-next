@@ -10,7 +10,7 @@ import "../css/styles.scss";
 export default class extends React.Component {
   static async getInitialProps() {
     const defaultAPI =
-      "https://api.football-data.org/v2/competitions/BL1/standings?standingType=HOME";
+      "https://api.football-data.org/v2/competitions/PL/standings?standingType=HOME";
     const res = await axios.get(defaultAPI, {
       headers: { "x-auth-token": `bb59bf677688476183511abee982ecd3` }
     });

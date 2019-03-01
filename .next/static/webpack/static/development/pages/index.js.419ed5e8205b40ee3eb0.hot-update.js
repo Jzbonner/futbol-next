@@ -166,31 +166,31 @@ function (_React$Component) {
           lineNumber: 49
         },
         __self: this
-      }, "P"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Points"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50
         },
         __self: this
-      }, "GL"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Games"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
         },
         __self: this
-      }, "W"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Wins"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 52
         },
         __self: this
-      }, "D"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Draws"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
         },
         __self: this
-      }, "L"))), this.props.data.map(function (standings) {
+      }, "Losses"))), this.props.data.map(function (standings) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("tbody", {
           __source: {
             fileName: _jsxFileName,
@@ -277,7 +277,7 @@ function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                defaultAPI = "https://api.football-data.org/v2/competitions/BL1/standings?standingType=HOME";
+                defaultAPI = "https://api.football-data.org/v2/competitions/PL/standings?standingType=HOME";
                 _context.next = 3;
                 return axios__WEBPACK_IMPORTED_MODULE_10___default.a.get(defaultAPI, {
                   headers: {
@@ -318,4 +318,4 @@ function (_React$Component) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.be7944339772a00ce318.hot-update.js.map
+//# sourceMappingURL=index.js.419ed5e8205b40ee3eb0.hot-update.js.map

@@ -26500,7 +26500,7 @@ function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                defaultAPI = "https://api.football-data.org/v2/competitions/BL1/standings?standingType=HOME";
+                defaultAPI = "https://api.football-data.org/v2/competitions/PL/standings?standingType=HOME";
                 _context.next = 3;
                 return axios__WEBPACK_IMPORTED_MODULE_10___default.a.get(defaultAPI, {
                   headers: {
