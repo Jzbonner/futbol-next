@@ -119,7 +119,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "E:\\Backup\\Documents\\Repos\\futbol-next\\components\\navbar.js";
+var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\components\\navbar.js";
 
 
 
@@ -1076,8 +1076,8 @@ function (_react_1$Component) {
 
     _this.formatUrls = memoizedFormatUrl(function (href, asHref) {
       return {
-        href: href && (0, _typeof2.default)(href) === 'object' ? url_1.format(href) : href,
-        as: asHref && (0, _typeof2.default)(asHref) === 'object' ? url_1.format(asHref) : asHref
+        href: href && (0, _typeof2.default)(href) === 'object' ? utils_1.formatWithValidation(href) : href,
+        as: asHref && (0, _typeof2.default)(asHref) === 'object' ? utils_1.formatWithValidation(asHref) : asHref
       };
     });
 
@@ -1545,7 +1545,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "E:\\Backup\\Documents\\Repos\\futbol-next\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\pages\\index.js";
 
 
 
@@ -1805,7 +1805,7 @@ function (_React$Component) {
                 return _context.stop();
             }
           }
-        }, _callee, this);
+        }, _callee);
       }));
 
       function getInitialProps() {
@@ -1833,7 +1833,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Backup\Documents\Repos\futbol-next\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\jarre\Desktop\Repos\futbol-next\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
