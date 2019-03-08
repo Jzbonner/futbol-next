@@ -1,0 +1,22 @@
+$font-stack: 'Raleway', sans-serif;
+$primary-color: rgba(170,170,170, 0.6); 
+$secondary-color: rgba(224,224,224, 0.4); 
+$padding-standard: 15px; 
+$border-radius-standard: 5px; 
+$border-standard: 3px solid #aaaaaa; 
+
+.main-nav { 
+    background-color: $secondary-color; 
+    border-bottom: 10px solid #2a778f; 
+    border-radius: $border-radius-standard; 
+    font-family: $font-stack; 
+    margin-bottom: 10px; 
+    padding: $padding-standard; 
+    text-align: left; 
+}
+
+.main-container { 
+    background-color: $primary-color; 
+    font-family: $font-stack; 
+    text-align: center; 
+}

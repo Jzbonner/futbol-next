@@ -7,14 +7,28 @@ import Navbar from "../components/navbar";
 
 import "../css/styles.scss";
 
-export default class extends React.Component {
+
+TODO: 
+{/*
+1. Create different pages and routes one for the Premier League and one 
+one for the Bundesliga
+2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
+3. Consider additional page for enhance detail on individual teams (maybe match info)
+4. Set an Active Identifier on the NavLink Items on Page Load 
+5. Migrate this TODO to Trello Board - once completed
+*/}
+
+class futbolApp extends React.Component {
   static async getInitialProps() {
-    const defaultAPI =
+    const api =
       "https://api.football-data.org/v2/competitions/PL/standings?standingType=HOME";
-    const res = await axios.get(defaultAPI, {
+    const res = await axios.get(api, {
       headers: { "x-auth-token": `bb59bf677688476183511abee982ecd3` }
     });
-    return { data: res.data.standings };
+    return { 
+      api: api, 
+      data: res.data.standings 
+    };
   }
 
   render() {
@@ -23,7 +37,7 @@ export default class extends React.Component {
     };
 
     return (
-      <div className="container-fluid">
+      <div className="container-fluid main-container">
         <Head>
           <title> League Table </title>
           <meta
@@ -33,6 +47,10 @@ export default class extends React.Component {
           <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          />
+          <link 
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Raleway" 
           />
         </Head>
     
@@ -85,6 +103,9 @@ export default class extends React.Component {
     );
   }
 }
+
+export default futbolApp; 
+
 
 // League Codes (BL1, BL2, BL3, DFB, PL, EL1, ELC, FAC, SA, SB, PD, SD, CDR, FL1, FL2, DED)
 // League Codes Cont. (PPL, GSL, CL, EL, EC, WC)
