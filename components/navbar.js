@@ -1,5 +1,12 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import Link from "next/link";
+
+TODO: 
+{/* 
+1. Redo 'Link' design on Navbar 
+2. Consider active indicator on active links 
+*/}
 
 export default class extends React.Component {
   constructor(props) {
@@ -26,10 +33,14 @@ export default class extends React.Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/">Premiere League</NavLink>
+                <Link href="/">
+                  <a>Premiere League</a>
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/">Bundesliga</NavLink>
+                <Link href="/bundesliga">
+                  <a>Bundesliga</a>
+                </Link>
               </NavItem>
             </Nav>
           </Collapse>

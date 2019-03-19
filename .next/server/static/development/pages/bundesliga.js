@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1532,10 +1532,10 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/bundesliga.js":
+/*!*****************************!*\
+  !*** ./pages/bundesliga.js ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1565,37 +1565,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\pages\\bundesliga.js";
 
 
 
 
 
 
-TODO: {
-  /*
-  ✅ 1. Create different pages and routes one for the Premier League and one 
-  one for the Bundesliga 
-  ✅ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
-  3. Consider additional page for enhance detail on individual teams (maybe match info)
-  ✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
-  5. Redo Theme for Futboll App (reactstrap tables, background elements, color pallette)
-  6. Migrate this TODO to Trello Board - once completed
-  */
-}
-
-var futbolApp =
+var bundesLiga =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(futbolApp, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(bundesLiga, _React$Component);
 
-  function futbolApp() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, futbolApp);
+  function bundesLiga() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, bundesLiga);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(futbolApp).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(bundesLiga).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(futbolApp, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(bundesLiga, [{
     key: "render",
     value: function render() {
       var logoStyle = {
@@ -1605,19 +1593,19 @@ function (_React$Component) {
         className: "container-fluid main-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 29
         },
         __self: this
       }, " League Table "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -1625,7 +1613,7 @@ function (_React$Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 30
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -1633,7 +1621,7 @@ function (_React$Component) {
         href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 34
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -1641,108 +1629,108 @@ function (_React$Component) {
         href: "https://fonts.googleapis.com/css?family=Raleway",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 38
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_navbar__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 44
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "col-sm-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 46
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "col-sm-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 48
         },
         __self: this
-      }, " Barclay's Premiere League "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("table", {
+      }, " Bundesliga "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("table", {
         className: "table",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("thead", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("tr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 52
         },
         __self: this
       }, "Position"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 53
         },
         __self: this
       }, "Team"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 54
         },
         __self: this
       }, "Points"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 55
         },
         __self: this
       }, "Games"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 56
         },
         __self: this
       }, "Wins"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 57
         },
         __self: this
       }, "Draws"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 58
         },
         __self: this
       }, "Losses"))), this.props.data.map(function (standings) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("tbody", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 75
+            lineNumber: 63
           },
           __self: this
         }, standings.table.map(function (value, index) {
@@ -1750,19 +1738,19 @@ function (_React$Component) {
             key: index,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 78
+              lineNumber: 66
             },
             __self: this
           }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 79
+              lineNumber: 67
             },
             __self: this
           }, value.position), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 80
+              lineNumber: 68
             },
             __self: this
           }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -1770,37 +1758,37 @@ function (_React$Component) {
             src: value.team.crestUrl,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 81
+              lineNumber: 69
             },
             __self: this
           })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 86
+              lineNumber: 74
             },
             __self: this
           }, value.points), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 87
+              lineNumber: 75
             },
             __self: this
           }, value.playedGames), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 88
+              lineNumber: 76
             },
             __self: this
           }, value.won), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 89
+              lineNumber: 77
             },
             __self: this
           }, value.draw), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 90
+              lineNumber: 78
             },
             __self: this
           }, value.lost));
@@ -1809,7 +1797,7 @@ function (_React$Component) {
         className: "col-md-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 87
         },
         __self: this
       })));
@@ -1825,7 +1813,7 @@ function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                api = "https://api.football-data.org/v2/competitions/PL/standings?standingType=HOME";
+                api = "https://api.football-data.org/v2/competitions/BL1/standings?standingType=HOME";
                 _context.next = 3;
                 return axios__WEBPACK_IMPORTED_MODULE_9___default.a.get(api, {
                   headers: {
@@ -1855,23 +1843,21 @@ function (_React$Component) {
     }()
   }]);
 
-  return futbolApp;
+  return bundesLiga;
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (futbolApp); // League Codes (BL1, BL2, BL3, DFB, PL, EL1, ELC, FAC, SA, SB, PD, SD, CDR, FL1, FL2, DED)
-// League Codes Cont. (PPL, GSL, CL, EL, EC, WC)
-// League Codes that work ~ PL, BL1
+/* harmony default export */ __webpack_exports__["default"] = (bundesLiga);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 6:
+/*!***********************************!*\
+  !*** multi ./pages/bundesliga.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\jarre\Desktop\Repos\futbol-next\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\jarre\Desktop\Repos\futbol-next\pages\bundesliga.js */"./pages/bundesliga.js");
 
 
 /***/ }),
@@ -2108,4 +2094,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=bundesliga.js.map
