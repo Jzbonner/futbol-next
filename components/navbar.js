@@ -1,11 +1,12 @@
 import React from 'react';
-import { Button, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Button, Badge, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import Link from "next/link";
 
 TODO: 
 {/* 
 ✅ 1. Redo 'Link' design on Navbar 
 ✅ 2. Consider active indicator on active links 
+3. Migrate these TODOs to Trello Board
 */}
 
 export default class extends React.Component {
@@ -28,18 +29,18 @@ export default class extends React.Component {
     return( 
       <div>
         <Navbar className="main-nav" color="faded" light>
-          <NavbarBrand href="/" className="mr-auto">Futbol ⚽ League Table</NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto"><img /><h3>Futbol League Table</h3></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
-            <Nav navbar>
+            <Nav>
               <NavItem className="nav-links">
                 <Link href="/">
-                  <Button outline color="secondary">Premiere League</Button>
+                  <Button color="secondary">Premiere League <Badge color="secondary">⚽</Badge></Button>
                 </Link>
               </NavItem>
               <NavItem className="nav-links">
                 <Link href="/bundesliga">
-                  <Button outline color="secondary">Bundesliga</Button>
+                  <Button color="secondary">Bundesliga <Badge color="secondary">⚽</Badge></Button>
                 </Link>
               </NavItem>
             </Nav>

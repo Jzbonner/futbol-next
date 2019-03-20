@@ -6,8 +6,8 @@
 
 /* Design Elements for Navbar */
 .main-nav {
-  background-color: rgba(224, 224, 224, 0.4);
-  border-bottom: 10px solid #2a778f;
+  background-color: rgba(183, 172, 153, 0.6);
+  border-bottom: 5px solid #2a778f;
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
   margin-bottom: 10px;
@@ -15,7 +15,8 @@
   text-align: left; }
 
 .nav-links {
-  padding: 5px; }
+  padding: 5px;
+  font-family: "Raleway", sans-serif; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

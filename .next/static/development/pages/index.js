@@ -36,6 +36,7 @@ TODO: {
   /* 
   ✅ 1. Redo 'Link' design on Navbar 
   ✅ 2. Consider active indicator on active links 
+  3. Migrate these TODOs to Trello Board
   */
 }
 
@@ -70,7 +71,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Navbar"], {
@@ -79,7 +80,7 @@ function (_React$Component) {
         light: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarBrand"], {
@@ -87,15 +88,27 @@ function (_React$Component) {
         className: "mr-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
-      }, "Futbol \u26BD League Table"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, "Futbol League Table")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
         onClick: this.toggleNavbar,
         className: "mr-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Collapse"], {
@@ -103,61 +116,72 @@ function (_React$Component) {
         navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Nav"], {
-        navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
-        outline: true,
-        color: "secondary",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
-      }, "Premiere League"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
+        color: "secondary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, "Premiere League ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Badge"], {
+        color: "secondary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, "\u26BD")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/bundesliga",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
-        outline: true,
-        color: "secondary",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 42
         },
         __self: this
-      }, "Bundesliga")))))));
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
+        color: "secondary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "Bundesliga ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Badge"], {
+        color: "secondary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "\u26BD"))))))));
     }
   }]);
 
@@ -26342,9 +26366,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar.js");
-/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/styles.scss */ "./css/styles.scss");
-/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_styles_scss__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar.js");
+/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/styles.scss */ "./css/styles.scss");
+/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_styles_scss__WEBPACK_IMPORTED_MODULE_12__);
 
 
 
@@ -26359,14 +26384,15 @@ var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\pages\\index.
 
 
 
+
 TODO: {
   /*
   ✅ 1. Create different pages and routes one for the Premier League and one 
   one for the Bundesliga 
   ✅ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
-  3. Consider additional page for enhance detail on individual teams (maybe match info)
+  FIXME: 3. Consider additional page for enhance detail on individual teams (maybe match info)
   ✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
-  5. Redo Theme for Futboll App (reactstrap tables, background elements, color pallette)
+  FIXME: 5. Redo Theme for Futboll App (reactstrap tables, background elements, color pallette)
   6. Migrate this TODO to Trello Board - once completed
   */
 }
@@ -26392,19 +26418,19 @@ function (_React$Component) {
         className: "container-fluid main-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         },
         __self: this
       }, " League Table "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -26412,7 +26438,7 @@ function (_React$Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -26420,7 +26446,7 @@ function (_React$Component) {
         href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -26428,108 +26454,111 @@ function (_React$Component) {
         href: "https://fonts.googleapis.com/css?family=Raleway",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 51
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_navbar__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_navbar__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "col-sm-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 59
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "col-sm-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 60
         },
         __self: this
-      }, " Barclay's Premiere League "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("table", {
-        className: "table",
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("thead", {
+      }, " Barclay's Premiere League "), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Table"], {
+        dark: true,
+        hover: true,
+        responsive: true,
+        className: "table",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("tr", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("thead", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("tr", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
         },
         __self: this
-      }, "Position"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
         },
         __self: this
-      }, "Team"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Position"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
         },
         __self: this
-      }, "Points"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Team"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         },
         __self: this
-      }, "Games"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Points"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 68
         },
         __self: this
-      }, "Wins"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Games"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 69
         },
         __self: this
-      }, "Draws"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+      }, "Wins"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 70
+        },
+        __self: this
+      }, "Draws"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
         },
         __self: this
       }, "Losses"))), this.props.data.map(function (standings) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("tbody", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 75
+            lineNumber: 76
           },
           __self: this
         }, standings.table.map(function (value, index) {
@@ -26537,19 +26566,19 @@ function (_React$Component) {
             key: index,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 78
+              lineNumber: 79
             },
             __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
+          }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("th", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 79
+              lineNumber: 80
             },
             __self: this
           }, value.position), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 80
+              lineNumber: 81
             },
             __self: this
           }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -26557,37 +26586,37 @@ function (_React$Component) {
             src: value.team.crestUrl,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 81
+              lineNumber: 82
             },
             __self: this
           })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 86
+              lineNumber: 87
             },
             __self: this
           }, value.points), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 87
+              lineNumber: 88
             },
             __self: this
           }, value.playedGames), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 88
+              lineNumber: 89
             },
             __self: this
           }, value.won), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 89
+              lineNumber: 90
             },
             __self: this
           }, value.draw), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("td", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 90
+              lineNumber: 91
             },
             __self: this
           }, value.lost));
@@ -26596,7 +26625,7 @@ function (_React$Component) {
         className: "col-md-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       })));

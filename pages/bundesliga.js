@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import axios from "axios";
+import { Table } from "reactstrap"; 
 
 import Navbar from "../components/navbar";
 
@@ -45,8 +46,8 @@ class bundesLiga extends React.Component {
         <div className="row">
           <div className="col-sm-2" />
           <div className="col-sm-8">
-            <h1> Bundesliga </h1>
-            <table className="table">
+            <h3> Bundesliga </h3>
+            <Table dark hover responsive className="table">
               <thead>
                 <tr>
                   <th>Position</th>
@@ -82,7 +83,7 @@ class bundesLiga extends React.Component {
                   </tbody>
                 );
               })}
-            </table>
+            </Table>
           </div>
           <div className="col-md-2" />
         </div>

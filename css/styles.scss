@@ -14,8 +14,8 @@ $border-standard: 3px solid #aaaaaa;
 
 /* Design Elements for Navbar */
 .main-nav { 
-    background-color: $secondary-color; 
-    border-bottom: 10px solid #2a778f; 
+    background-color: rgba(183,172,153, 0.6); 
+    border-bottom: 5px solid #2a778f; 
     border-radius: $border-radius-standard; 
     font-family: $font-stack; 
     margin-bottom: 10px; 
@@ -25,4 +25,5 @@ $border-standard: 3px solid #aaaaaa;
 
 .nav-links {
     padding: 5px; 
+    font-family: $font-stack; 
 }
