@@ -92,23 +92,27 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        className: "logo",
+        src: "https://raw.githubusercontent.com/Jzbonner/futbol-next/master/img-media/futbol-logo.png",
+        alt: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
+        className: "logo-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 38
         },
         __self: this
-      }, "Futbol League Table")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
+      }, "League Table")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
         onClick: this.toggleNavbar,
         className: "mr-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 40
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Collapse"], {
@@ -116,69 +120,69 @@ function (_React$Component) {
         navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Nav"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
         color: "secondary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 45
         },
         __self: this
       }, "Premiere League ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Badge"], {
         color: "secondary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 45
         },
         __self: this
       }, "\u26BD")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
         className: "nav-links",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/bundesliga",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
         color: "secondary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 50
         },
         __self: this
       }, "Bundesliga ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Badge"], {
         color: "secondary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 50
         },
         __self: this
       }, "\u26BD"))))))));

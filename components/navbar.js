@@ -29,7 +29,14 @@ export default class extends React.Component {
     return( 
       <div>
         <Navbar className="main-nav" color="faded" light>
-          <NavbarBrand href="/" className="mr-auto"><img /><h3>Futbol League Table</h3></NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto">
+            <img 
+              className="logo"
+              src="https://raw.githubusercontent.com/Jzbonner/futbol-next/master/img-media/futbol-logo.png" 
+              alt="logo"
+            />
+            <h3 className="logo-title">League Table</h3>
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav>
