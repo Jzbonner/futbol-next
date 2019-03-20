@@ -6,7 +6,7 @@ TODO:
 {/* 
 ✅ 1. Redo 'Link' design on Navbar 
 ✅ 2. Consider active indicator on active links 
-3. Flush out functionality 
+✅ 3. Flush out functionality 
 4. Migrate these TODOs to Trello Board
 */}
 
@@ -16,7 +16,7 @@ export default class extends React.Component {
 
     this.toggleNavbar = this.toggleNavbar.bind(this); 
     this.state = { 
-      collapsed: true
+      collapsed: true, 
     }
   }
 

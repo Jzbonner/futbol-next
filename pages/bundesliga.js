@@ -40,6 +40,11 @@ class bundesLiga extends React.Component {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Raleway"
           />
+          <link 
+            rel="shortcut icon" 
+            type="image/png" 
+            href="https://github.com/Jzbonner/futbol-next/blob/master/img-media/soccer.png?raw=true"
+          />
         </Head>
 
         <Navbar />
@@ -50,7 +55,7 @@ class bundesLiga extends React.Component {
             <Table dark hover responsive className="table">
               <thead>
                 <tr>
-                  <th>Position</th>
+                  <th>Pos.</th>
                   <th>Team</th>
                   <th>Points</th>
                   <th>Games</th>

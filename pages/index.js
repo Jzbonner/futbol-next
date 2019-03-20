@@ -15,7 +15,7 @@ one for the Bundesliga
 ✅ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
 FIXME: 3. Consider additional page for enhance detail on individual teams (maybe match info)
 ✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
-FIXME: 5. Redo Theme for Futboll App (reactstrap tables, background elements, color pallette)
+FIXME: 5. Redo Theme for Futboll App (✅ reactstrap tables, background elements, animations, ✅ color pallette)
 6. Migrate this TODO to Trello Board - once completed
 */}
 
@@ -55,7 +55,7 @@ class futbolApp extends React.Component {
           <link 
             rel="shortcut icon" 
             type="image/png" 
-            href="http://example.com/favicon.png"
+            href="https://github.com/Jzbonner/futbol-next/blob/master/img-media/soccer.png?raw=true"
           />
         </Head>
     
@@ -63,11 +63,12 @@ class futbolApp extends React.Component {
           <div className="row">
             <div className="col-sm-2" />
             <div className="col-sm-8">
+              
               <h3> Barclay's Premier League </h3>
               <Table dark hover responsive className="table">
                 <thead>
                   <tr>
-                    <th>Position</th>
+                    <th>Pos.</th>
                     <th>Team</th>
                     <th>Points</th>
                     <th>Games</th>
