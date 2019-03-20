@@ -4,6 +4,11 @@
   font-family: "Raleway", sans-serif;
   text-align: center; }
 
+.league-logo {
+  display: block;
+  border: 2px solid black;
+  border-radius: 360px; }
+
 /* Design Elements for Navbar */
 .main-nav {
   background-color: rgba(183, 172, 153, 0.6);

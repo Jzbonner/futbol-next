@@ -60,10 +60,9 @@ class futbolApp extends React.Component {
         </Head>
     
         <Navbar />
-          <div className="row">
+          <div className="row main-content">
             <div className="col-sm-2" />
             <div className="col-sm-8">
-              
               <h3> Barclay's Premier League </h3>
               <Table dark hover responsive className="table">
                 <thead>
@@ -103,7 +102,13 @@ class futbolApp extends React.Component {
                 })}
               </Table>
             </div>
-            <div className="col-md-2" />
+            <div className="col-md-2">
+                <img 
+                  className="league-logo"
+                  src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true"
+                  alt="league-logo"
+                />
+            </div>
           </div>
       </div>
     );
