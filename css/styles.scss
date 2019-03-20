@@ -5,6 +5,14 @@ $padding-standard: 15px;
 $border-radius-standard: 5px; 
 $border-standard: 3px solid #aaaaaa; 
 
+/* Design and Media Queries for App Container */
+.main-container { 
+    background-color: $primary-color; 
+    font-family: $font-stack; 
+    text-align: center; 
+}
+
+/* Design Elements for Navbar */
 .main-nav { 
     background-color: $secondary-color; 
     border-bottom: 10px solid #2a778f; 
@@ -15,8 +23,6 @@ $border-standard: 3px solid #aaaaaa;
     text-align: left; 
 }
 
-.main-container { 
-    background-color: $primary-color; 
-    font-family: $font-stack; 
-    text-align: center; 
+.nav-links {
+    padding: 5px; 
 }

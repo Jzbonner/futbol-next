@@ -208,6 +208,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+        className: "nav-links",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
@@ -220,13 +221,16 @@ function (_React$Component) {
           lineNumber: 36
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
+        outline: true,
+        color: "secondary",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
       }, "Premiere League"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+        className: "nav-links",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
@@ -239,7 +243,9 @@ function (_React$Component) {
           lineNumber: 41
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
+        outline: true,
+        color: "secondary",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 42

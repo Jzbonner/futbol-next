@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Button, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import Link from "next/link";
 
 TODO: 
@@ -32,14 +32,14 @@ export default class extends React.Component {
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
-              <NavItem>
+              <NavItem className="nav-links">
                 <Link href="/">
-                  <a>Premiere League</a>
+                  <Button outline color="secondary">Premiere League</Button>
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="nav-links">
                 <Link href="/bundesliga">
-                  <a>Bundesliga</a>
+                  <Button outline color="secondary">Bundesliga</Button>
                 </Link>
               </NavItem>
             </Nav>
