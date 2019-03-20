@@ -14,7 +14,7 @@ $border-standard: 3px solid #aaaaaa;
 
 /* Design Elements for Navbar */
 .main-nav { 
-    background-color: rgba(183,172,153, 0.6); 
+    //background-color: rgba(183,172,153, 0.6); 
     border-bottom: 5px solid #2a778f; 
     border-radius: $border-radius-standard; 
     font-family: $font-stack; 
@@ -24,14 +24,14 @@ $border-standard: 3px solid #aaaaaa;
 }
 
 .logo {
-    border-radius: 15px; 
-    height: 75px; 
-    float: left; 
-    width: 75px; 
+    border: $border-standard;  
+    height: 80px; 
+    width: 145px; 
+    
 }
 
 .logo-title {
-    padding: 15px; 
+
 }
 
 .nav-links {
