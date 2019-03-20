@@ -52,13 +52,18 @@ class futbolApp extends React.Component {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Raleway" 
           />
+          <link 
+            rel="shortcut icon" 
+            type="image/png" 
+            href="http://example.com/favicon.png"
+          />
         </Head>
     
         <Navbar />
           <div className="row">
             <div className="col-sm-2" />
             <div className="col-sm-8">
-              <h3> Barclay's Premiere League </h3>
+              <h3> Barclay's Premier League </h3>
               <Table dark hover responsive className="table">
                 <thead>
                   <tr>

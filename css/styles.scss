@@ -1,40 +1,48 @@
-$font-stack: 'Raleway', sans-serif;
-$primary-color: rgba(170,170,170, 0.6); 
-$secondary-color: rgba(224,224,224, 0.4); 
-$padding-standard: 15px; 
-$border-radius-standard: 5px; 
-$border-standard: 3px solid #aaaaaa; 
+$font-stack: "Raleway", sans-serif;
+$primary-color: rgba(170, 170, 170, 0.6);
+$secondary-color: rgba(224, 224, 224, 0.4);
+$padding-standard: 15px;
+$border-radius-standard: 5px;
+$border-standard: 3px solid #aaaaaa;
 
 /* Design and Media Queries for App Container */
-.main-container { 
-    background-color: $primary-color; 
-    font-family: $font-stack; 
-    text-align: center; 
+.main-container {
+  background-color: $primary-color;
+  font-family: $font-stack;
+  text-align: center;
 }
 
 /* Design Elements for Navbar */
-.main-nav { 
-    //background-color: rgba(183,172,153, 0.6); 
-    border-bottom: 5px solid #2a778f; 
-    border-radius: $border-radius-standard; 
-    font-family: $font-stack; 
-    margin-bottom: 10px; 
-    padding: $padding-standard; 
-    text-align: left; 
+.main-nav {
+  background-color: rgba(183, 172, 153, 0.6);
+  border-left: 5px solid #2a778f;
+  border-radius: $border-radius-standard;
+  font-family: $font-stack;
+  margin-bottom: 10px;
+  padding: $padding-standard;
+  text-align: left;
 }
 
 .logo {
-    border: $border-standard;  
-    height: 80px; 
-    width: 145px; 
-    
+  background-color: #ffffff;
+  border-radius: 360px;
+  float: left;
+  height: 60px;
+  padding: 10px;
+  width: 60px;
 }
 
 .logo-title {
-
+  padding: 15px;
 }
 
 .nav-links {
-    padding: 5px; 
-    font-family: $font-stack; 
+  padding: 8px;
+  font-family: $font-stack;
+  font-size: 12px;
+}
+
+/* Design elements for Table */
+h3 {
+  font-weight: bold;
 }
