@@ -4,8 +4,8 @@ import Link from "next/link";
 
 TODO: 
 {/* 
-1. Redo 'Link' design on Navbar 
-2. Consider active indicator on active links 
+✅ 1. Redo 'Link' design on Navbar 
+✅ 2. Consider active indicator on active links 
 */}
 
 export default class extends React.Component {
