@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Badge, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
+import { Button, Badge, Collapse, Fade, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import Link from "next/link";
 
 TODO: 
@@ -29,7 +29,7 @@ export default class extends React.Component {
   render() {
     return( 
       <div>
-        <Navbar className="main-nav" color="dark" light expand="md">
+        <Navbar className="main-nav" light expand="md">
           <NavbarBrand href="/" className="mr-auto">
             <img 
               className="logo"
@@ -42,22 +42,22 @@ export default class extends React.Component {
             <Nav>
               <NavItem className="nav-links">
                 <Link href="/">
-                  <Button className="nav-links" color="secondary">Premier League <Badge color="secondary">⚽</Badge></Button>
+                  <Button onClick={this.toggle} className="nav-links" color="secondary">Premier League <Badge color="secondary">⚽</Badge></Button>
                 </Link>
               </NavItem>
               <NavItem className="nav-links">
                 <Link href="/bundesliga">
-                  <Button className="nav-links" color="secondary">Bundesliga <Badge color="secondary">⚽</Badge></Button>
+                  <Button onClick={this.toggle} className="nav-links" color="secondary">Bundesliga <Badge color="secondary">⚽</Badge></Button>
+                </Link>
+              </NavItem>
+              <NavItem className="nav-links">
+                <Link href="/matches">
+                  <Button onClick={this.toggle} className="nav-links" color="secondary">Matches <Badge color="secondary">⌚</Badge></Button>
                 </Link>
               </NavItem>
               <NavItem className="nav-links">
                 <Link href="/">
-                  <Button className="nav-links" color="secondary">Social <Badge color="secondary">📱</Badge></Button>
-                </Link>
-              </NavItem>
-              <NavItem className="nav-links">
-                <Link href="/">
-                  <Button className="nav-links" color="secondary">Matches <Badge color="secondary">⌚</Badge></Button>
+                  <Button onClick={this.toggle} className="nav-links" color="secondary">Social <Badge color="secondary">📱</Badge></Button>
                 </Link>
               </NavItem>
             </Nav>

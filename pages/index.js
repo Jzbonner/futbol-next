@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import axios from "axios";
-import { Table } from "reactstrap"; 
+import { Fade, Table } from "reactstrap"; 
 
 import Navbar from "../components/navbar"; 
 
@@ -29,6 +29,21 @@ class futbolApp extends React.Component {
     return { 
       data: res.data.standings, 
     };
+  }
+
+  constructor(props) {
+    super(props); 
+    
+    this.state = {
+      fadeIn: true, 
+    };
+    this.toggle = this.toggle.bind(this); 
+  }
+
+  toggle() {
+    this.setState({
+      fadeIn: false, 
+    })
   }
 
   render() {
@@ -60,13 +75,14 @@ class futbolApp extends React.Component {
         </Head>
     
         <Navbar />
+        <Fade in={this.state.fadeIn}>
           <div className="row main-content">
             <div className="col-sm-2" />
             <div className="col-sm-8">
               <h3> Barclay's Premier League </h3>
               <Table dark hover responsive className="table">
                 <thead>
-                  <tr>
+                  <tr className="table-row">
                     <th>Pos.</th>
                     <th>Team</th>
                     <th>Points</th>
@@ -81,7 +97,7 @@ class futbolApp extends React.Component {
                     <tbody>
                       {standings.table.map((value, index) => {
                         return (
-                          <tr key={index}>
+                          <tr key={index} className="table-row-view">
                             <th>{value.position}</th>
                             <td>
                               <img
@@ -110,6 +126,7 @@ class futbolApp extends React.Component {
                 />
             </div>
           </div>
+        </Fade>
       </div>
     );
   }

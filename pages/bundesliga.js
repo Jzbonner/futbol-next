@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import axios from "axios";
-import { Table } from "reactstrap"; 
+import { Fade, Table } from "reactstrap"; 
 
 import Navbar from "../components/navbar";
 
@@ -17,6 +17,21 @@ class bundesLiga extends React.Component {
     return {
       data: res.data.standings,
     };
+  }
+
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      fadeIn: true, 
+    }; 
+    this.toggle = this.toggle.bind(this); 
+  }
+
+  toggle() {
+    this.setState({
+      fadeIn: false, 
+    })
   }
 
   render() {
@@ -48,50 +63,58 @@ class bundesLiga extends React.Component {
         </Head>
 
         <Navbar />
-        <div className="row">
-          <div className="col-sm-2" />
-          <div className="col-sm-8">
-            <h3> Bundesliga </h3>
-            <Table dark hover responsive className="table">
-              <thead>
-                <tr>
-                  <th>Pos.</th>
-                  <th>Team</th>
-                  <th>Points</th>
-                  <th>Games</th>
-                  <th>Wins</th>
-                  <th>Draws</th>
-                  <th>Losses</th>
-                </tr>
-              </thead>
-              {this.props.data.map(standings => {
-                return (
-                  <tbody>
-                    {standings.table.map((value, index) => {
-                      return (
-                        <tr key={index}>
-                          <td>{value.position}</td>
-                          <td>
-                            <img
-                              style={logoStyle}
-                              src={value.team.crestUrl}
-                            />
-                          </td>
-                          <td>{value.points}</td>
-                          <td>{value.playedGames}</td>
-                          <td>{value.won}</td>
-                          <td>{value.draw}</td>
-                          <td>{value.lost}</td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                );
-              })}
-            </Table>
+        <Fade in={this.state.fadeIn}>
+          <div className="row">
+            <div className="col-sm-2" />
+            <div className="col-sm-8">
+              <h3> Bundesliga </h3>
+              <Table dark hover responsive className="table">
+                <thead>
+                  <tr className="table-row">
+                    <th>Pos.</th>
+                    <th>Team</th>
+                    <th>Points</th>
+                    <th>Games</th>
+                    <th>Wins</th>
+                    <th>Draws</th>
+                    <th>Losses</th>
+                  </tr>
+                </thead>
+                {this.props.data.map(standings => {
+                  return (
+                    <tbody>
+                      {standings.table.map((value, index) => {
+                        return (
+                          <tr key={index} className="table-row-view">
+                            <td>{value.position}</td>
+                            <td>
+                              <img
+                                style={logoStyle}
+                                src={value.team.crestUrl}
+                              />
+                            </td>
+                            <td>{value.points}</td>
+                            <td>{value.playedGames}</td>
+                            <td>{value.won}</td>
+                            <td>{value.draw}</td>
+                            <td>{value.lost}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  );
+                })}
+              </Table>
+            </div>
+            <div className="col-md-2">
+                  <img 
+                    className="league-logo-bl"
+                    src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/bundesliga.png?raw=true"
+                    alt="league-logo"
+                  />
+              </div>
           </div>
-          <div className="col-md-2" />
-        </div>
+        </Fade>
       </div>
     );
   }

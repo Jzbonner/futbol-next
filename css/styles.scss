@@ -13,9 +13,22 @@ $border-standard: 3px solid #aaaaaa;
 }
 
 .league-logo {
-  display: block;  
-  border: 2px solid black; 
-  border-radius: 360px;  
+  float: left; 
+  border: 2px dashed grey; 
+  border-radius: 360px;
+  margin-top: 125px; 
+  padding: 25px; 
+  height: 120px; 
+  width: 120px;   
+}
+
+.league-logo-bl {
+  float: left;   
+  border: 2px dashed grey; 
+  margin-top: 125px; 
+  padding: 25px; 
+  height: 120px; 
+  width: 120px;
 }
 
 /* Design Elements for Navbar */
@@ -39,14 +52,8 @@ $border-standard: 3px solid #aaaaaa;
   }
 }
 
-.main-nav:hover .logo {
-  background-color: rgba(196,219,215, 0.7); 
-  -webkit-transition: 0.25s ease-in-out; 
-  transition: 0.25s ease-in-out; 
-}
-
 .logo {
-  background-color: rgba(175,202,148, 0.6);
+  background-color: rgba(196,219,215, 0.7); 
   border-radius: 360px;
   float: left;
   height: 60px;
@@ -55,9 +62,35 @@ $border-standard: 3px solid #aaaaaa;
 }
 
 
-/* Design elements for Table */
+/* Design elements for Standings Table */
 h3 {
   font-weight: bold;
   margin-top: 110px; 
   text-align: left; 
+}
+
+.table-row {
+  font-size: 10px; 
+}
+
+.table-row-view {
+  font-size: 13px; 
+
+  :hover {
+    cursor: pointer; 
+    -webkit-transition: 0.2s ease-in-out; 
+    transition: 0.2s ease-in-out; 
+  }
+}
+
+/* Design Elements for Match Cards */
+
+.match-table {
+  height: 100vh; 
+}
+
+.card-view {
+  border: $border-standard; 
+  border-radius: $border-radius-standard; 
+  margin-top: 110px; 
 }
