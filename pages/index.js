@@ -13,10 +13,10 @@ TODO:
 ✅ 1. Create different pages and routes one for the Premier League and one 
 one for the Bundesliga 
 ✅ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
-FIXME: 3. Consider additional page for enhance detail on individual teams (maybe match info)
+✅ 3. Consider additional page for enhance detail on individual teams (maybe match info)
 ✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
-FIXME: 5. Redo Theme for Futboll App (✅ reactstrap tables, background elements, animations, ✅ color pallette)
-6. Migrate this TODO to Trello Board - once completed
+FIXME: 5. Redo Theme for Futboll App (✅ reactstrap tables, background elements, ✅ animations, ✅ color pallette)
+FIXME: 6. Migrate this TODO to Trello Board - once completed
 */}
 
 class futbolApp extends React.Component {

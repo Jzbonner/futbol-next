@@ -70,6 +70,8 @@ h3 {
 .card-view {
   border: 3px solid #aaaaaa;
   border-radius: 5px;
+  font-size: 12px;
+  height: 275px;
   margin-top: 110px; }
 
 

@@ -7,10 +7,10 @@ TODO:
 ✅ 1. Redo 'Link' design on Navbar 
 ✅ 2. Consider active indicator on active links 
 ✅ 3. Flush out functionality 
-4. Migrate these TODOs to Trello Board
+FIXME: 4. Migrate these TODOs to Trello Board
 */}
 
-export default class extends React.Component {
+export default class navBar extends React.Component {
   constructor(props) {
     super(props); 
 

@@ -1,17 +1,7 @@
 import React from "react"; 
-import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { Card, CardHeader, CardFooter, CardTitle, CardText, Row, Col } from 'reactstrap';
 
-class cardView extends React.Component {
-  static async getInitialProps() {
-    const api = "https://api.football-data.org/v2/competitions/2021/matches?matchday=1";
-    const res = await axios.get(api, {
-      headers: { "x-auth-token": `bb59bf677688476183511abee982ecd3` }
-    });
-    return {
-      data: res.data.matches, 
-    }; 
-  }
-
+export default class cardView extends React.Component {
   constructor(props) {
     super(props);
 
@@ -27,28 +17,32 @@ class cardView extends React.Component {
         <Col sm="2" />
         <Col sm="4">
           <Card className="card-view" body>
-          <CardTitle>Match Card</CardTitle>
+          <CardHeader>{this.props.score} vs Team 2</CardHeader>
+          <CardTitle>Score of Match with image accents</CardTitle>
             <CardText>
-              With supporting text below as a natural lead-in to additional content.
+              Supporting information: Match information, Game Time, etc. 
                 <img 
                   className="league-logo"
                   src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true"
                   alt="league-logo"
                 />
             </CardText>
+            <CardFooter>Location and Stadium of Match</CardFooter>
           </Card>
         </Col>
         <Col sm="4">
-          <Card className="card-view" body>
-          <CardTitle>Match Card</CardTitle>
+        <Card className="card-view" body>
+          <CardHeader>Team 1 vs Team 2</CardHeader>
+          <CardTitle>Score of Match with image accents</CardTitle>
             <CardText>
-              With supporting text below as a natural lead-in to additional content.
+              Supporting information: Match information, Game Time, etc. 
                 <img 
                   className="league-logo"
                   src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true"
                   alt="league-logo"
                 />
             </CardText>
+            <CardFooter>Location and Stadium of Match</CardFooter>
           </Card>
         </Col>
         <Col sm="2" />
@@ -57,5 +51,3 @@ class cardView extends React.Component {
   }
       
 }
-
-export default cardView; 

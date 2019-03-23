@@ -14,9 +14,11 @@ class matchesTable extends React.Component {
     const res = await axios.get(api, {
       headers: { "x-auth-token": `bb59bf677688476183511abee982ecd3` }
     });
+
     return {
       data: res.data.matches, 
     }; 
+
   }
 
   constructor(props) {
@@ -27,6 +29,8 @@ class matchesTable extends React.Component {
     }; 
 
     this.toggle = this.toggle.bind(this); 
+
+    console.log(this.props.data); 
   }
 
   toggle() {
@@ -35,8 +39,7 @@ class matchesTable extends React.Component {
     })
   }
 
-  render() {
-    console.log(this.props.data); 
+  render() { 
 
     return(
       <div className="container-fluid main-container">
