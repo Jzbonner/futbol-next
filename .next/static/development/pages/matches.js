@@ -1,4 +1,178 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\matches.js"],{
+
+/***/ "./components/card.js":
+/*!****************************!*\
+  !*** ./components/card.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return cardView; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\components\\card.js";
+
+
+
+var cardView =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(cardView, _React$Component);
+
+  function cardView(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, cardView);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(cardView).call(this, props));
+    _this.state = {};
+    console.log(_this.props);
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(cardView, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
+        className: "match-table",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+        sm: "2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+        sm: "4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
+        className: "card-view",
+        body: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardHeader"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, "Team 1 vs Team 2"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, "Score of Match with image accents"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "Supporting information: Match information, Game Time, etc.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: "league-logo",
+        src: "https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true",
+        alt: "league-logo",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardFooter"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, "Location and Stadium of Match"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+        sm: "4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
+        className: "card-view",
+        body: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardHeader"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, "Team 1 vs Team 2"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, "Score of Match with image accents"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardText"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, "Supporting information: Match information, Game Time, etc.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: "league-logo",
+        src: "https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true",
+        alt: "league-logo",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardFooter"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, "Location and Stadium of Match"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+        sm: "2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }));
+    }
+  }]);
+
+  return cardView;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+
+
+/***/ }),
 
 /***/ "./components/navbar.js":
 /*!******************************!*\
@@ -222,294 +396,6 @@ function (_React$Component) {
 
 
 ;
-
-/***/ }),
-
-/***/ "./components/standings.js":
-/*!*********************************!*\
-  !*** ./components/standings.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return standingsTable; });
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/styles.scss */ "./css/styles.scss");
-/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_styles_scss__WEBPACK_IMPORTED_MODULE_8__);
-
-
-
-
-
-
-var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\components\\standings.js";
-
-
-
-
-var standingsTable =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(standingsTable, _React$Component);
-
-  function standingsTable(props) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, standingsTable);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(standingsTable).call(this, props));
-    _this.state = {
-      title: "Barclay's Premier League"
-    };
-    _this.onClick = _this.onClick.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
-    return _this;
-  } // YOU HAVE ES6 FOR A REASON LOL 
-
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(standingsTable, [{
-    key: "onClick",
-    value: function onClick() {
-      if (this.state.title === "Barclay's Premier League") {
-        this.setState({
-          title: "Bundesliga"
-        });
-      } else if (this.state.title === "Bundesliga") {
-        this.setState({
-          title: "Barclay's Premier League"
-        });
-      }
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      // migrate this style to the scss page
-      var logoStyle = {
-        width: "30px"
-      };
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "row main-content",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "col-sm-2",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "col-sm-8",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }, " ", this.state.title, " "), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Table"], {
-        borderless: true,
-        hover: true,
-        responsive: true,
-        className: "table",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("thead", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("tr", {
-        className: "table-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, "Pos."), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, "Team"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, "Points"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }, "Games"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }, "Wins"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, "Draws"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, "Losses"))), this.props.data.map(function (standings) {
-        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("tbody", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 55
-          },
-          __self: this
-        }, standings.table.map(function (value, index) {
-          return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("tr", {
-            key: index,
-            className: "table-row-view",
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 58
-            },
-            __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("th", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 59
-            },
-            __self: this
-          }, value.position), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 60
-            },
-            __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-            style: logoStyle,
-            src: value.team.crestUrl,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 61
-            },
-            __self: this
-          })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 66
-            },
-            __self: this
-          }, value.points), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 67
-            },
-            __self: this
-          }, value.playedGames), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 68
-            },
-            __self: this
-          }, value.won), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 69
-            },
-            __self: this
-          }, value.draw), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("td", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 70
-            },
-            __self: this
-          }, value.lost));
-        }));
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "col-md-2",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
-        onClick: this.onClick,
-        outline: true,
-        color: "secondary",
-        size: "sm",
-        className: "league-switch",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "league-logo",
-        src: "https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true",
-        alt: "league-logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Button"], {
-        onClick: this.onClick,
-        color: "link",
-        size: "sm",
-        className: "league-switch",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "league-logo-bl",
-        src: "https://github.com/Jzbonner/futbol-next/blob/master/img-media/bundesliga.png?raw=true",
-        alt: "league-logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }))));
-    }
-  }]);
-
-  return standingsTable;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-
 
 /***/ }),
 
@@ -9042,21 +8928,21 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cindex.js!./":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cindex.js ***!
-  \************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmatches&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cmatches.js!./":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmatches&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cmatches.js ***!
+  \*********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/matches", function() {
+      var page = __webpack_require__(/*! ./pages/matches.js */ "./pages/matches.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/matches.js */ "./pages/matches.js", function() {
+          if(!next.router.components["/matches"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/matches.js */ "./pages/matches.js")
+          next.router.update("/matches", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -26663,10 +26549,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/matches.js":
+/*!**************************!*\
+  !*** ./pages/matches.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -26689,7 +26575,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 /* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar.js");
-/* harmony import */ var _components_standings__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/standings */ "./components/standings.js");
+/* harmony import */ var _components_card__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/card */ "./components/card.js");
 /* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/styles.scss */ "./css/styles.scss");
 /* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_styles_scss__WEBPACK_IMPORTED_MODULE_14__);
 
@@ -26700,7 +26586,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\pages\\matches.js";
 
 
 
@@ -26709,26 +26595,12 @@ var _jsxFileName = "C:\\Users\\jarre\\Desktop\\Repos\\futbol-next\\pages\\index.
 
 
 
-TODO: {
-  /*
-  ✅ 1. Create different pages and routes one for the Premier League and one 
-  one for the Bundesliga 
-  ✅ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
-  ✅ 3. Consider additional page for enhance detail on individual teams (maybe match info)
-  ✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
-  ✅ 7. Create a new branch of the futbol-next app to test the revised API functionality
-  FIXME: You can pass prop "data" to children components by passing state as props to children components
-  FIXME: 5. Redo Theme for Futboll App (✅ reactstrap tables, background elements, ✅ animations, ✅ color pallette)
-  FIXME: 6. Migrate this TODO to Trello Board - once completed
-  */
-}
-
-var futbolApp =
+var matchesTable =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(futbolApp, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(matchesTable, _React$Component);
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_6__["default"])(futbolApp, null, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_6__["default"])(matchesTable, null, [{
     key: "getInitialProps",
     value: function () {
       var _getInitialProps = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
@@ -26739,7 +26611,7 @@ function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                api = "https://api.football-data.org/v2/competitions/PL/standings?standingType=HOME";
+                api = "https://api.football-data.org/v2/competitions/2021/matches?matchday=1";
                 _context.next = 3;
                 return axios__WEBPACK_IMPORTED_MODULE_10___default.a.get(api, {
                   headers: {
@@ -26750,7 +26622,7 @@ function (_React$Component) {
               case 3:
                 res = _context.sent;
                 return _context.abrupt("return", {
-                  data: res.data.standings
+                  data: res.data.matches
                 });
 
               case 5:
@@ -26769,21 +26641,22 @@ function (_React$Component) {
     }()
   }]);
 
-  function futbolApp(props) {
+  function matchesTable(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, futbolApp);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, matchesTable);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(futbolApp).call(this, props));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(matchesTable).call(this, props));
     _this.state = {
       fadeIn: true,
-      tableInfo: _this.props.data
+      matchesData: _this.props.data
     };
-    _this.toggle = _this.toggle.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    _this.toggle = _this.toggle.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this)); // console.log(this.state.matchesData); 
+
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_6__["default"])(futbolApp, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_6__["default"])(matchesTable, [{
     key: "toggle",
     value: function toggle() {
       this.setState({
@@ -26797,19 +26670,19 @@ function (_React$Component) {
         className: "container-fluid main-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 46
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_9___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 48
         },
         __self: this
       }, " League Table "), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("meta", {
@@ -26817,7 +26690,7 @@ function (_React$Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 49
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
@@ -26825,7 +26698,7 @@ function (_React$Component) {
         href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 53
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
@@ -26833,7 +26706,7 @@ function (_React$Component) {
         href: "https://fonts.googleapis.com/css?family=Raleway",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 57
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("link", {
@@ -26842,50 +26715,48 @@ function (_React$Component) {
         href: "https://github.com/Jzbonner/futbol-next/blob/master/img-media/soccer.png?raw=true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 61
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_navbar__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 68
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["Fade"], {
         in: this.state.fadeIn,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 69
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_standings__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        data: this.state.tableInfo,
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        data: this.state.matchesData,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 70
         },
         __self: this
       })));
     }
   }]);
 
-  return futbolApp;
+  return matchesTable;
 }(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (futbolApp); // League Codes (BL1, BL2, BL3, DFB, PL, EL1, ELC, FAC, SA, SB, PD, SD, CDR, FL1, FL2, DED)
-// League Codes Cont. (PPL, GSL, CL, EL, EC, WC)
-// League Codes that work ~ PL, BL1
+/* harmony default export */ __webpack_exports__["default"] = (matchesTable);
 
 /***/ }),
 
-/***/ 1:
-/*!****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cindex.js ***!
-  \****************************************************************************************************************************************/
+/***/ 4:
+/*!*************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fmatches&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cmatches.js ***!
+  \*************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fmatches&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cmatches.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmatches&absolutePagePath=C%3A%5CUsers%5Cjarre%5CDesktop%5CRepos%5Cfutbol-next%5Cpages%5Cmatches.js!./");
 
 
 /***/ }),
@@ -26901,5 +26772,5 @@ module.exports = dll_9c75acfe53428ad7a9fa;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]));;
-//# sourceMappingURL=index.js.map
+},[[4,"static/runtime/webpack.js","styles"]]]));;
+//# sourceMappingURL=matches.js.map

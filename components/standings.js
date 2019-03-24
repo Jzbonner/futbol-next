@@ -7,7 +7,24 @@ export default class standingsTable extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {};
+    this.state = {
+      title: "Barclay's Premier League",
+    };
+
+    this.onClick = this.onClick.bind(this); 
+  }
+
+  // YOU HAVE ES6 FOR A REASON LOL 
+  onClick() {
+    if (this.state.title === "Barclay's Premier League") {
+      this.setState({
+        title: "Bundesliga"
+      })
+    } else if (this.state.title === "Bundesliga") {
+      this.setState({
+        title: "Barclay's Premier League"
+      })
+    }
   }
 
   render() {
@@ -20,7 +37,7 @@ export default class standingsTable extends React.Component {
     <div className="row main-content">
       <div className="col-sm-2" />
       <div className="col-sm-8">
-        <h3> Barclay's Premier League </h3>
+        <h3> {this.state.title} </h3>
         <Table borderless hover responsive className="table">
           <thead>
             <tr className="table-row">
@@ -60,14 +77,25 @@ export default class standingsTable extends React.Component {
         </Table>
       </div>
       <div className="col-md-2">
-        <Button outline active color="secondary" size="sm" className="league-switch">
+        <Button 
+          onClick={this.onClick}
+          outline 
+          color="secondary" 
+          size="sm" 
+          className="league-switch"
+        >
           <img 
             className="league-logo"
             src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true"
             alt="league-logo"
           />
         </Button>
-        <Button color="link" size="sm" className="league-switch">
+        <Button 
+          onClick={this.onClick}
+          color="link" 
+          size="sm" 
+          className="league-switch"
+        >
           <img 
             className="league-logo-bl"
             src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/bundesliga.png?raw=true"
