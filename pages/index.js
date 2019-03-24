@@ -17,6 +17,7 @@ one for the Bundesliga
 ✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
 FIXME: 5. Redo Theme for Futboll App (✅ reactstrap tables, background elements, ✅ animations, ✅ color pallette)
 FIXME: 6. Migrate this TODO to Trello Board - once completed
+FIXME: 7. Create a new branch of the futbol-next app to test the revised API functionality
 */}
 
 class futbolApp extends React.Component {
