@@ -23,8 +23,7 @@
 
 /* Design Elements for Navbar */
 .main-nav {
-  background-color: rgba(183, 172, 153, 0.6);
-  border-left: 12px solid rgba(42, 119, 143, 0.6);
+  background-image: -webkit-linear-gradient(109deg, rgba(238, 238, 238, 0.8) 89%, rgba(102, 106, 110, 0.8) 11%);
   font-family: "Raleway", sans-serif;
   position: fixed;
   margin-left: -15px;
@@ -40,12 +39,12 @@
     font-size: 12px; }
 
 .logo {
-  background-color: rgba(196, 219, 215, 0.7);
+  background-color: rgba(196, 219, 215, 0.9);
   border-radius: 360px;
   float: left;
-  height: 60px;
+  height: 50px;
   padding: 10px;
-  width: 60px; }
+  width: 50px; }
 
 /* Design elements for Standings Table */
 h3 {
@@ -71,8 +70,9 @@ h3 {
   border: 3px solid #aaaaaa;
   border-radius: 5px;
   font-size: 12px;
-  height: 275px;
-  margin-top: 110px; }
+  height: 295px;
+  margin-top: 110px;
+  overflow: hidden; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
