@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import axios from "axios";
-import { Fade, Table } from "reactstrap"; 
+import { Button, Fade, Table } from "reactstrap"; 
 
 import Navbar from "../components/navbar"; 
 
@@ -15,9 +15,10 @@ one for the Bundesliga
 ✅ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
 ✅ 3. Consider additional page for enhance detail on individual teams (maybe match info)
 ✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
+✅ 7. Create a new branch of the futbol-next app to test the revised API functionality
+FIXME: You can pass prop "data" to children components by passing state as props to children components
 FIXME: 5. Redo Theme for Futboll App (✅ reactstrap tables, background elements, ✅ animations, ✅ color pallette)
 FIXME: 6. Migrate this TODO to Trello Board - once completed
-FIXME: 7. Create a new branch of the futbol-next app to test the revised API functionality
 */}
 
 class futbolApp extends React.Component {
@@ -37,7 +38,9 @@ class futbolApp extends React.Component {
     
     this.state = {
       fadeIn: true, 
+      tableInfo: this.props.data, 
     };
+
     this.toggle = this.toggle.bind(this); 
   }
 
@@ -48,6 +51,7 @@ class futbolApp extends React.Component {
   }
 
   render() {
+    // migrate this style to the scss page
     const logoStyle = {
       width: "30px"
     };
@@ -74,11 +78,10 @@ class futbolApp extends React.Component {
             href="https://github.com/Jzbonner/futbol-next/blob/master/img-media/soccer.png?raw=true"
           />
         </Head>
-    
         <Navbar />
         <Fade in={this.state.fadeIn}>
-          <div className="row main-content">
-            <div className="col-sm-2" />
+          <div className="row main-container">
+          <div className="col-sm-2" />
             <div className="col-sm-8">
               <h3> Barclay's Premier League </h3>
               <Table dark hover responsive className="table">
@@ -120,11 +123,20 @@ class futbolApp extends React.Component {
               </Table>
             </div>
             <div className="col-md-2">
+              <Button className="league-switch">
                 <img 
                   className="league-logo"
                   src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true"
                   alt="league-logo"
                 />
+              </Button>
+              <Button className="league-switch">
+                <img 
+                  className="league-logo-bl"
+                  src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/bundesliga.png?raw=true"
+                  alt="league-logo"
+                />
+              </Button>              
             </div>
           </div>
         </Fade>

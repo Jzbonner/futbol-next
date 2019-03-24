@@ -14,10 +14,11 @@ export default class navBar extends React.Component {
   constructor(props) {
     super(props); 
 
-    this.toggleNavbar = this.toggleNavbar.bind(this); 
     this.state = { 
       collapsed: true, 
     }
+
+    this.toggleNavbar = this.toggleNavbar.bind(this); 
   }
 
   toggleNavbar() {
@@ -42,12 +43,7 @@ export default class navBar extends React.Component {
             <Nav>
               <NavItem className="nav-links">
                 <Link href="/">
-                  <Button onClick={this.toggle} className="nav-links" color="secondary">Premier League <Badge color="secondary">⚽</Badge></Button>
-                </Link>
-              </NavItem>
-              <NavItem className="nav-links">
-                <Link href="/bundesliga">
-                  <Button onClick={this.toggle} className="nav-links" color="secondary">Bundesliga <Badge color="secondary">⚽</Badge></Button>
+                  <Button onClick={this.toggle} className="nav-links" color="secondary">Standings Table <Badge color="secondary">⚽</Badge></Button>
                 </Link>
               </NavItem>
               <NavItem className="nav-links">

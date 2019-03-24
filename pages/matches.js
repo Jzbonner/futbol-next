@@ -26,11 +26,12 @@ class matchesTable extends React.Component {
     
     this.state = {
       fadeIn: true, 
+      matchesData: this.props.data, 
     }; 
 
     this.toggle = this.toggle.bind(this); 
 
-    console.log(this.props.data); 
+    // console.log(this.state.matchesData); 
   }
 
   toggle() {
@@ -66,7 +67,9 @@ class matchesTable extends React.Component {
 
       <Navbar /> 
       <Fade in={this.state.fadeIn}>
-        <Card />
+        <Card 
+          data={this.state.matchesData}
+        />
       </Fade>
       </div>
     )

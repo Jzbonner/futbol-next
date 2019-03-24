@@ -5,9 +5,9 @@ export default class cardView extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
+    this.state = {};
 
-    };
+    console.log(this.props); 
   }
 
   render() {
@@ -17,7 +17,7 @@ export default class cardView extends React.Component {
         <Col sm="2" />
         <Col sm="4">
           <Card className="card-view" body>
-          <CardHeader>{this.props.score} vs Team 2</CardHeader>
+          <CardHeader>Team 1 vs Team 2</CardHeader>
           <CardTitle>Score of Match with image accents</CardTitle>
             <CardText>
               Supporting information: Match information, Game Time, etc. 
