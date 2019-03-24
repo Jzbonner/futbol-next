@@ -2,26 +2,9 @@
 .main-container {
   background-color: rgba(170, 170, 170, 0.6);
   font-family: "Raleway", sans-serif;
-  padding-top: 50px;
   text-align: center; }
-
-.league-switch {
-  margin: 25px 25px 25px 0px; }
-  .league-switch :hover {
-    cursor: pointer; }
-  .league-switch .league-logo {
-    display: block;
-    margin: auto;
-    border-radius: 360px;
-    padding: 25px;
-    height: 120px;
-    width: 120px; }
-  .league-switch .league-logo-bl {
-    display: block;
-    margin: auto;
-    padding: 25px;
-    height: 120px;
-    width: 120px; }
+  .main-container .main-content {
+    padding-top: 120px; }
 
 /* Design Elements for Navbar */
 .main-nav {
@@ -54,7 +37,8 @@ h3 {
   text-align: left; }
 
 .table-row {
-  font-size: 10px; }
+  font-size: 10px;
+  background-color: rgba(170, 170, 170, 0.6); }
 
 .table-row-view {
   font-size: 13px; }
@@ -63,9 +47,21 @@ h3 {
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out; }
 
+.league-switch {
+  display: block;
+  margin: auto; }
+  .league-switch :hover {
+    cursor: pointer; }
+  .league-switch .league-logo, .league-switch .league-logo-bl {
+    display: block;
+    margin: auto;
+    padding: 25px;
+    height: 80px;
+    width: 80px; }
+
 /* Design Elements for Match Cards */
 .match-table {
-  margin-top: 80px;
+  padding-top: 110px;
   height: 100vh; }
 
 .card-view {

@@ -7,39 +7,14 @@ $border-standard: 3px solid #aaaaaa;
 
 /* Design and Media Queries for App Container */
 .main-container {
-   background-color: $primary-color;
-  font-family: $font-stack;
-  padding-top: 50px; 
+  background-color: $primary-color;
+  font-family: $font-stack; 
   text-align: center;
-}
 
-.league-switch {
-  margin: 25px 25px 25px 0px; 
-
-  :hover {
-    cursor: pointer; 
-  }
-
-  .league-logo {
-    display: block;  
-    margin: auto; 
-    // border: 2px dashed grey; 
-    border-radius: 360px;
-    padding: 25px; 
-    height: 120px; 
-    width: 120px;   
-  }
-  
-  .league-logo-bl {
-    display: block ; 
-    margin: auto; 
-    // border: 2px dashed grey; 
-    padding: 25px; 
-    height: 120px; 
-    width: 120px;
+  .main-content {
+    padding-top: 120px 
   }
 }
-
 
 /* Design Elements for Navbar */
 .main-nav {
@@ -79,6 +54,7 @@ h3 {
 
 .table-row {
   font-size: 10px; 
+  background-color: $primary-color; 
 }
 
 .table-row-view {
@@ -91,10 +67,26 @@ h3 {
   }
 }
 
-/* Design Elements for Match Cards */
+.league-switch {
+  display: block; 
+  margin: auto; 
 
+  :hover {
+    cursor: pointer; 
+  }
+
+  .league-logo, .league-logo-bl {
+    display: block;  
+    margin: auto; 
+    padding: 25px; 
+    height: 80px; 
+    width: 80px;   
+  }
+}
+
+/* Design Elements for Match Cards */
 .match-table {
-  margin-top: 80px; 
+  padding-top: 110px; 
   height: 100vh; 
 }
 

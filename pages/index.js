@@ -4,6 +4,7 @@ import axios from "axios";
 import { Button, Fade, Table } from "reactstrap"; 
 
 import Navbar from "../components/navbar"; 
+import StandingsTable from "../components/standings"; 
 
 import "../css/styles.scss";
 
@@ -51,10 +52,6 @@ class futbolApp extends React.Component {
   }
 
   render() {
-    // migrate this style to the scss page
-    const logoStyle = {
-      width: "30px"
-    };
 
     return (
       <div className="container-fluid main-container">
@@ -80,65 +77,9 @@ class futbolApp extends React.Component {
         </Head>
         <Navbar />
         <Fade in={this.state.fadeIn}>
-          <div className="row main-container">
-          <div className="col-sm-2" />
-            <div className="col-sm-8">
-              <h3> Barclay's Premier League </h3>
-              <Table dark hover responsive className="table">
-                <thead>
-                  <tr className="table-row">
-                    <th>Pos.</th>
-                    <th>Team</th>
-                    <th>Points</th>
-                    <th>Games</th>
-                    <th>Wins</th>
-                    <th>Draws</th>
-                    <th>Losses</th>
-                  </tr>
-                </thead>
-                {this.props.data.map(standings => {
-                  return (
-                    <tbody>
-                      {standings.table.map((value, index) => {
-                        return (
-                          <tr key={index} className="table-row-view">
-                            <th>{value.position}</th>
-                            <td>
-                              <img
-                                style={logoStyle}
-                                src={value.team.crestUrl}
-                              />
-                            </td>
-                            <td>{value.points}</td>
-                            <td>{value.playedGames}</td>
-                            <td>{value.won}</td>
-                            <td>{value.draw}</td>
-                            <td>{value.lost}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  );
-                })}
-              </Table>
-            </div>
-            <div className="col-md-2">
-              <Button className="league-switch">
-                <img 
-                  className="league-logo"
-                  src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/premier-league.png?raw=true"
-                  alt="league-logo"
-                />
-              </Button>
-              <Button className="league-switch">
-                <img 
-                  className="league-logo-bl"
-                  src="https://github.com/Jzbonner/futbol-next/blob/master/img-media/bundesliga.png?raw=true"
-                  alt="league-logo"
-                />
-              </Button>              
-            </div>
-          </div>
+          <StandingsTable 
+            data={this.state.tableInfo} 
+          />
         </Fade>
       </div>
     );
