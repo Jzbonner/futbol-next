@@ -46,6 +46,8 @@ h3 {
     cursor: pointer;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out; }
+  .table-row-view .logoStyle {
+    width: 30px; }
 
 .league-switch {
   display: block;

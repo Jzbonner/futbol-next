@@ -28,10 +28,6 @@ export default class standingsTable extends React.Component {
   }
 
   render() {
-    // migrate this style to the scss page
-    const logoStyle = {
-      width: "30px"
-    };
 
     return(
     <div className="row main-content">
@@ -59,7 +55,7 @@ export default class standingsTable extends React.Component {
                       <th>{value.position}</th>
                       <td>
                         <img
-                          style={logoStyle}
+                          className="logoStyle"
                           src={value.team.crestUrl}
                         />
                       </td>
@@ -79,8 +75,7 @@ export default class standingsTable extends React.Component {
       <div className="col-md-2">
         <Button 
           onClick={this.onClick}
-          outline 
-          color="secondary" 
+          outline
           size="sm" 
           className="league-switch"
         >
@@ -92,7 +87,7 @@ export default class standingsTable extends React.Component {
         </Button>
         <Button 
           onClick={this.onClick}
-          color="link" 
+          outline
           size="sm" 
           className="league-switch"
         >
