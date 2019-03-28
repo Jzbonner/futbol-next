@@ -11,14 +11,14 @@ import "../css/styles.scss";
 
 TODO: 
 {/*
-✅ 1. Create different pages and routes one for the Premier League and one 
+✔ 1. Create different pages and routes one for the Premier League and one 
 one for the Bundesliga 
-✅ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
-✅ 3. Consider additional page for enhance detail on individual teams (maybe match info)
-✅ 4. Set an Active Identifier on the NavLink Items on Page Load 
-✅ 7. Create a new branch of the futbol-next app to test the revised API functionality
+✔ 2. Utilize the NavLink component attributes to link to another page that utilizes getInitialProps()
+✔ 3. Consider additional page for enhance detail on individual teams (maybe match info)
+✔ 4. Set an Active Identifier on the NavLink Items on Page Load 
+✔ 7. Create a new branch of the futbol-next app to test the revised API functionality
 FIXME: You can pass prop "data" to children components by passing state as props to children components
-FIXME: 5. Redo Theme for Futboll App (✅ reactstrap tables, background elements, ✅ animations, ✅ color pallette)
+FIXME: 5. Redo Theme for Futboll App (reactstrap tables, background elements, animations, ✅ color pallette)
 FIXME: 6. Migrate this TODO to Trello Board - once completed
 */}
 
